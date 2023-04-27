@@ -1,13 +1,13 @@
 package com.sparta.board.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Getter
-@NoArgsConstructor
+@Setter
+@AllArgsConstructor
 public class MsgResponseDto {
-    private String msg;
-    public void setMsg(String msg) {
-        this.msg = msg;
-    }
+    String msg;
+    int statusCode;
 }

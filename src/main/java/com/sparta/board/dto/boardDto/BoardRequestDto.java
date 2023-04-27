@@ -10,6 +10,5 @@ import lombok.Setter;
 public class BoardRequestDto {
     private String title;
     private String content;
-    private String username;
-    private String password;
+
 }
